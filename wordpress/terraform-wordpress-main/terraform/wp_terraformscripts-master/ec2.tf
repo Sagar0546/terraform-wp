@@ -2,7 +2,7 @@
 resource "aws_instance" "terraform" {
   ami                         = "ami-0440d3b780d96b29d"
   instance_type               = "t2.micro"
-  key_name                    = "docker-1"
+  key_name                    = "wp-2"
   vpc_security_group_ids      = [aws_security_group.demosg.id]
   subnet_id                   = aws_subnet.wp_subnet-1.id
   associate_public_ip_address = "true"
