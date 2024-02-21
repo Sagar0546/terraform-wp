@@ -9,6 +9,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose version
 cd  
 sudo yum install git -y
-git clone https://github.com/Sagar0546/terraform-wp.git
+git clone https://github.com/Sagar0546/wordpress.git
 cd wordpress
 docker-compose up -d
